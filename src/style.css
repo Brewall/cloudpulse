@@ -8,6 +8,16 @@
   }
 }
 
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0.3; }
+  100% { transform: scale(0.9); opacity: 0.8; }
+}
+
+.neon-pulse {
+  animation: pulse-ring 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 /* Custom scrollbar for dark console & telemetry */
 ::-webkit-scrollbar {
   width: 6px;
