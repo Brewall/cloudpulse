@@ -1,10 +1,10 @@
-# 🖥️ CloudPulse — Dashboard de Observabilidad y Telemetría Cloud
+# CloudPulse — Dashboard de Observabilidad y Telemetría Cloud
 
 > **Single Page Application (SPA) de alto rendimiento construida en Vanilla JavaScript puro, HTML5 y Tailwind CSS v4, sin frameworks ni dependencias de UI.**
 
 ---
 
-## 🌟 Descripción General
+## Descripción General
 
 **CloudPulse** es una plataforma de visualización técnica diseñada para operaciones de infraestructura en la nube y DevOps. Proporciona telemetría continua en tiempo real, catálogo de microservicios, explorador de logs en streaming y un simulador de contingencias (*Chaos Engineering*) para evaluar la resiliencia del sistema ante fallos.
 
@@ -12,7 +12,7 @@ Forma parte del portafolio profesional de ingeniería de **Karlo Aldair (Brewall
 
 ---
 
-## ⚡ Características Principales
+## Características Principales
 
 * **Client-Side Router Nativo:** Enrutamiento SPA basado en hash (`#/overview`, `#/services`, `#/logs`, `#/incidents`, `#/settings`) con carga dinámica y preservación de estado sin recargar la página.
 * **Gráficas de Telemetría en SVG Puro:** Algoritmo matemático para interpolar puntos numéricos en curvas Bézier cúbicas suaves (Catmull-Rom a Bézier), gradientes dinámicos y cuadrículas responsivas sin recurrir a bibliotecas pesadas de gráficos.
@@ -24,7 +24,7 @@ Forma parte del portafolio profesional de ingeniería de **Karlo Aldair (Brewall
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ```
 cloudpulse/
@@ -56,7 +56,7 @@ cloudpulse/
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 * **Lenguaje:** JavaScript ES2022+ (ES Modules, Vanilla JS nativo)
 * **Estilos:** Tailwind CSS v4 con `@tailwindcss/vite`
@@ -66,7 +66,7 @@ cloudpulse/
 
 ---
 
-## 💻 Ejecución Local
+## Ejecución Local
 
 1. **Clonar o ingresar al repositorio:**
    ```bash
@@ -91,7 +91,7 @@ cloudpulse/
 
 ---
 
-## 📐 Estándares de Ingeniería
+## Estándares de Ingeniería
 
 * **Conventional Commits en español:** Historial de Git atómico y ordenado (`feat(...)`, `fix(...)`, `chore(...)`, `ci(...)`).
 * **Accesibilidad (a11y):** Contraste semántico optimizado para temas oscuros, soporte de navegación por teclado y etiquetas ARIA en controles modales y paneles laterales.
