@@ -24,10 +24,11 @@ export function renderSidebar(currentRoute = '#/overview') {
             </div>
 
             <div>
-              <div class="flex items-center gap-1.5">
-                <span class="font-extrabold text-sm tracking-tight text-white font-mono">CLOUD<span class="text-emerald-400 font-sans font-light">PULSE</span></span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="font-extrabold text-sm tracking-wider text-white font-mono">CLOUD</span>
+                <span class="text-emerald-400 font-sans font-semibold text-sm tracking-normal">PULSE</span>
               </div>
-              <span class="text-[10px] text-zinc-500 uppercase tracking-widest font-mono block">Observability Suite</span>
+              <span class="text-[10px] text-zinc-500 uppercase tracking-widest font-mono block mt-0.5">Observability Suite</span>
             </div>
           </a>
 
